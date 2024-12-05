@@ -415,7 +415,7 @@
   }
   
   .main-image{
-    padding: 170px 0;
+    padding: 170px 0 10px;
     width: 430px;
     object-fit: cover;
   }
@@ -800,7 +800,7 @@
   }
   
   .main-image{
-    padding: 170px 0;
+    padding: 170px 0 10px;
     width: 390px;
     object-fit: cover;
   }
