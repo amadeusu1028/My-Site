@@ -7,6 +7,7 @@
   <title>Document</title>
 
   <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -74,7 +75,8 @@
   <section id="content" class="content">
     <h1 class="headline">CONTENT</h1>
     <div class="content-list">
-      <img class="content-image" src="img/content.png" alt="logo">
+      <img class="content-image" src="img/content.png" alt="logo"
+      data-aos="slide-right" data-aos-duration="1500">
       <div class="content-text">
         <h2>タイトルタイトル</h2>
         <p>
@@ -89,7 +91,8 @@
       </div>
     </div>
     <div class="content-list">
-      <img class="content-image2" src="img/content.png" alt="logo">
+      <img class="content-image2" src="img/content.png" alt="logo"
+      data-aos="slide-left" data-aos-duration="1500">
       <div class="content-text2">
         <h2>タイトルタイトル</h2>
         <p>
@@ -181,7 +184,14 @@
   </footer>
   <hr class="hr">
   <small class="small">&copy;KOBAYASHI inc</small>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
   <script src="main.js"></script>
 </body>
 
