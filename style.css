@@ -148,6 +148,7 @@
   .price-list{
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
   }
   
   .grade-list{
@@ -522,7 +523,7 @@
     display: block;
     margin: 50px 0;
     width: 424px;
-    height: 550px;
+    height: 450px;
     border: 2px solid;
     overflow: hidden;
   }
@@ -905,7 +906,7 @@
     display: block;
     margin: 50px 0;
     width: 386px;
-    height: 550px;
+    height: 450px;
     border: 2px solid;
     overflow: hidden;
   }
