@@ -455,6 +455,8 @@
   .content-list{
     display: block;
     margin-top: 60px;
+    width: 430px;
+    overflow: hidden;
   }
   
   .content-image{
@@ -831,6 +833,8 @@
   
   .content-list{
     margin-top: 60px;
+    width: 390px;
+    overflow: hidden;
   }
   
   .content-image{
