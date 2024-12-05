@@ -381,6 +381,8 @@
   
   .header-image{
     padding-left: 65px;
+    width: 140px;
+    height: 80px;
   }
   
   .header-nav{
@@ -763,6 +765,8 @@
   
   .header-image{
     padding-left: 45px;
+    width: 140px;
+    height: 80px;
   }
   
   .header-nav{
