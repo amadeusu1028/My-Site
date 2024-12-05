@@ -706,7 +706,7 @@
     display: block;
     width: 430px;
     height: 300px;
-    background-color: #666;
+    background-color: #333;
   }
   
   .footer>div{
@@ -739,7 +739,7 @@
     height: 40px;
     display: block;
     text-align: center;
-    background-color: #666;
+    background-color: #333;
   }
 
 }
@@ -1088,7 +1088,7 @@
     display: block;
     width: 390px;
     height: 300px;
-    background-color: #666;
+    background-color: #333;
   }
   
   .footer>div{
@@ -1121,7 +1121,7 @@
     height: 40px;
     display: block;
     text-align: center;
-    background-color: #666;
+    background-color: #333;
   }
 
 }
