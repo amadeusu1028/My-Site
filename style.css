@@ -95,6 +95,7 @@
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
   }
   
   .content-image{
@@ -470,12 +471,12 @@
   
   .content-text{
     height: 300px;
-    margin: 0;
+    margin: 0 0 30px;
   }
   
   .content-text2{
     height: 300px;
-    margin: 0;
+    margin: 0 0 30px;
   }
 
   
@@ -845,16 +846,16 @@
   }
   
   .content-text{
-    margin: 0;
+    margin: 0 0 30px;
   }
   
   .content-text2{
-    margin: 0;
+    margin: 0 0 30px;
   }
 
   
   .content-link{
-    margin: 60px 0 0
+    margin:60px;
   }
   
   .content-link>a{
