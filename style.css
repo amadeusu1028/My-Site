@@ -523,6 +523,7 @@
     width: 424px;
     height: 550px;
     border: 2px solid;
+    overflow: hidden;
   }
   
   .list{
@@ -905,6 +906,7 @@
     width: 386px;
     height: 550px;
     border: 2px solid;
+    overflow: hidden;
   }
   
   .list{
