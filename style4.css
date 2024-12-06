@@ -213,7 +213,7 @@
     }
   
     .radio>input{
-      margin-right: 20px;
+      margin-right: 10px;
     }
   
     .select{
@@ -225,6 +225,7 @@
       padding-bottom: 5px;
       margin-bottom: 10px;
       border-radius: 8px;
+      color: #000;
     }
   
     .textarea>textarea{
@@ -354,11 +355,12 @@
     }
   
     .radio>input{
-      margin-right: 20px;
+      margin-right: 10px;
     }
   
     .select{
       margin-left: 10px;
+      color: #000;
     }
   
     .select>select{
