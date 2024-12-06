@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+}
+
+  body{
+    background-color: #666;
+  }
+
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0;
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+    z-index: 10;
+  }
+  
+  .header-image{
+    padding-left: 100px;
+    width: 140px;
+    height: 80px;
+  }
+  
+  .header-nav{
+    line-height: 80px;
+    display: flex;
+    padding-right: 100px;
+  }
+  
+  .header-nav>a{
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-nav>a:hover{
+    background-color: #888;
+    transition: .5s;
+  }
+
+  .headline{
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 150px;
+    margin-left: 530px;
+    border-bottom: 4px solid #444;
+  }
+
+  .col-3{
+    text-align: center;
+  }
+
+  .col-3>a{
+    text-decoration: none;
+  }
+
+  .col-3>a>img{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .footer{
+    margin-top: 70px;
+    display: flex;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer>div{
+    width: 226px;
+    margin: 0 100px;
+  }
+  
+  .footer>div>p{
+    padding-top: 5px;
+    height: 70px;
+    font-size: 13px;
+  }
+  
+  .footer>div>img{
+    padding-top: 10px;
+    height: 50px;
+  }
+  
+  .footer>div>address{
+    padding-top: 5px;
+    height: 50px;
+    font-size: 13px;
+  }
+  
+  .hr{
+    padding: 1px;
+    background-color: #444;
+    border: none;
+  }
+  
+  .small{
+    margin: 0;
+    padding-top: 60px;
+    display: block;
+    text-align: center;
+    background-color: #333;
+  }
+
+  @media (max-width: 450px) {
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  
+    body{
+      background-color: #666;
+    }
+  
+    .header{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      width: 430px;
+    }
+    
+    .header-image{
+      padding-left: 65px;
+      width: 140px;
+      height: 80px;
+    }
+    
+    .header-nav{
+      display: flex;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header-nav>a{
+      display: inline-block;
+      font-size: 12px;
+      width: calc(100% / 4);
+      color: #fff;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .header-nav>a:hover{
+      background-color: #888;
+      transition: .5s;
+    }
+
+    .headline{
+      padding-top: 200px;
+      margin-left: 115px;
+    }
+
+    .footer{
+      margin-top: 70px;
+      display: block;
+      width: 430px;
+      height: 300px;
+      background-color: #333;
+    }
+    
+    .footer>div{
+      width: 240px;
+      padding-top: 20px;
+    }
+    
+    .footer>div>p{
+      padding-top: 5px;
+      height: 50px;
+      font-size: 13px;
+    }
+    
+    .footer>div>img{
+      height: 50px;
+    }
+    
+    .footer>div>address{
+      height: 50px;
+      font-size: 13px;
+    }
+    
+    .hr{
+      display: none;
+    }
+    
+    .small{
+      margin: 0;
+      width: 430px;
+      height: 40px;
+      display: block;
+      text-align: center;
+      background-color: #333;
+    }
+  
+  }
+
+  @media (max-width: 390px) {
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  
+    body{
+      background-color: #666;
+    }
+  
+    .header{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      width: 390px;
+    }
+    
+    .header-image{
+      padding-left: 45px;
+      width: 140px;
+      height: 80px;
+    }
+    
+    .header-nav{
+      display: flex;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header-nav>a{
+      display: inline-block;
+      font-size: 12px;
+      width: calc(100% / 4);
+      color: #fff;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .header-nav>a:hover{
+      background-color: #888;
+      transition: .5s;
+    }
+
+    .headline{
+      margin-left: 100px;
+    }
+  
+    .footer{
+      margin-top: 70px;
+      display: block;
+      width: 390px;
+      height: 300px;
+      background-color: #333;
+    }
+    
+    .footer>div{
+      width: 240px;
+      padding-top: 20px;
+    }
+    
+    .footer>div>p{
+      padding-top: 5px;
+      height: 50px;
+      font-size: 13px;
+    }
+    
+    .footer>div>img{
+      height: 50px;
+    }
+    
+    .footer>div>address{
+      height: 50px;
+      font-size: 13px;
+    }
+    
+    .hr{
+      display: none;
+    }
+    
+    .small{
+      margin: 0;
+      width: 390px;
+      height: 40px;
+      display: block;
+      text-align: center;
+      background-color: #333;
+    }
+  
+  }
