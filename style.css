@@ -512,37 +512,48 @@
     background-color: #888;
     transition: .5s; 
   }
-  
+
   .price-list{
-    width: 430px;
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
   }
   
   .grade-list{
-    display: block;
-    margin: 50px 0;
-    width: 424px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0;
+    width: 90%;
+    height: 380px;
     border: 2px solid;
     overflow: hidden;
+  }
+
+  .detail-list{
+    position: absolute;
+    top: 10%;
+    left: -70%;
+    font-size: 10px;
   }
   
   .list{
     margin-top: 15px;
-    width: 424px;
+    width: 400px;
     position: relative;
   }
 
   .label{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 16px;
   }
   
   .label::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -555,13 +566,8 @@
     transform: rotate(180deg);
     transition: .5s;
   }
-
-  .detail-list{
-    padding-left: 40px;
-  }
   
   .detail{
-    padding: 20px 0 0;
     margin-left: 75px;
     width: 160px;
     height: 0;
@@ -575,21 +581,25 @@
   }
   
   .detail.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
     transition: 1s;
   }
-
+  
   .label2{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 16px;
   }
-
+  
   .label2::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -604,8 +614,6 @@
   }
   
   .detail2{
-    padding: 20px 0 0;
-    margin-left: 75px;
     width: 160px;
     height: 0;
     overflow: hidden;
@@ -614,24 +622,29 @@
   }
   
   .detail2>li{
-    margin: 20px 0;
+    margin :20px 0;
   }
   
   .detail2.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
     transition: 1s;
   }
+
   .label3{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 16px;
   }
   
   .label3::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -646,7 +659,6 @@
   }
   
   .detail3{
-    padding: 20px 0 0;
     margin-left: 75px;
     width: 160px;
     height: 0;
@@ -660,12 +672,13 @@
   }
   
   .detail3.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
     transition: 1s;
   }
-  
+
   .contact{
     width: 430px;
     margin-top: 50px;
@@ -878,7 +891,6 @@
   .content-text2{
     margin: 0 0 30px;
   }
-
   
   .content-link{
     margin:60px;
@@ -897,35 +909,46 @@
   }
   
   .price-list{
-    width: 390px;
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
   }
   
   .grade-list{
-    display: block;
-    margin: 50px 0;
-    width: 386px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0;
+    width: 90%;
+    height: 380px;
     border: 2px solid;
     overflow: hidden;
+  }
+
+  .detail-list{
+    position: absolute;
+    top: 10%;
+    left: -80%;
+    font-size: 10px;
   }
   
   .list{
     margin-top: 15px;
-    width: 386px;
+    width: 400px;
     position: relative;
   }
 
   .label{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 14px;
   }
   
   .label::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -938,13 +961,8 @@
     transform: rotate(180deg);
     transition: .5s;
   }
-
-  .detail-list{
-    padding-left: 40px;
-  }
   
   .detail{
-    padding: 20px 0 0;
     margin-left: 75px;
     width: 160px;
     height: 0;
@@ -958,21 +976,25 @@
   }
   
   .detail.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
     transition: 1s;
   }
-
+  
   .label2{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 14px;
   }
-
+  
   .label2::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -987,8 +1009,6 @@
   }
   
   .detail2{
-    padding: 20px 0 0;
-    margin-left: 75px;
     width: 160px;
     height: 0;
     overflow: hidden;
@@ -997,24 +1017,29 @@
   }
   
   .detail2>li{
-    margin: 20px 0;
+    margin :20px 0;
   }
   
   .detail2.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
     transition: 1s;
   }
+
   .label3{
+    position: relative;
     position: absolute;
-    left: 37%;
+    top: 2%;
+    left: 25%;
+    font-size: 14px;
   }
   
   .label3::before{
     position: absolute;
-    top: 20%;
-    left: -20%;
+    top: 5%;
+    left: -25%;
     content: '';
     border-right: 10px solid transparent;
     border-bottom: 17.3205px solid ;
@@ -1029,7 +1054,6 @@
   }
   
   .detail3{
-    padding: 20px 0 0;
     margin-left: 75px;
     width: 160px;
     height: 0;
@@ -1043,6 +1067,7 @@
   }
   
   .detail3.open{
+    margin-left: 75px;
     width: 160px;
     height: 350px;
     animation: slidein .5s cubic-bezier(0.25, 1, 0.5, 1);
